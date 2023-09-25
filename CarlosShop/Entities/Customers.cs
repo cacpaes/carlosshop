@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarlosShop
+namespace CarlosShop.Entities
 {
-    public class Customers : People 
+    public class Customers : People
     {
         // Additional attributes specific to Customers
         public decimal CreditLimit { get; set; }

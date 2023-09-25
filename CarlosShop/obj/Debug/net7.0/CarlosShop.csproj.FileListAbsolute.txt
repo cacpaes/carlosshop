@@ -1,0 +1,14 @@
+C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\bin\Debug\net7.0\CarlosShop.exe
+C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\bin\Debug\net7.0\CarlosShop.deps.json
+C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\bin\Debug\net7.0\CarlosShop.runtimeconfig.json
+C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\bin\Debug\net7.0\CarlosShop.dll
+C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\bin\Debug\net7.0\CarlosShop.pdb
+C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\obj\Debug\net7.0\CarlosShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\obj\Debug\net7.0\CarlosShop.AssemblyInfoInputs.cache
+C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\obj\Debug\net7.0\CarlosShop.AssemblyInfo.cs
+C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\obj\Debug\net7.0\CarlosShop.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\obj\Debug\net7.0\CarlosShop.dll
+C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\obj\Debug\net7.0\refint\CarlosShop.dll
+C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\obj\Debug\net7.0\CarlosShop.pdb
+C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\obj\Debug\net7.0\CarlosShop.genruntimeconfig.cache
+C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\obj\Debug\net7.0\ref\CarlosShop.dll
