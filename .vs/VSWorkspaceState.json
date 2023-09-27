@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CarlosShop",
+    "\\CarlosShop\\Entities",
+    "\\CarlosShop\\Repositories"
   ],
-  "SelectedNode": "\\CarlosShop.sln",
+  "SelectedNode": "\\CarlosShop",
   "PreviewInSolutionExplorer": false
 }
