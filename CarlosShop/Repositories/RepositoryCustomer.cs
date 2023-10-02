@@ -7,13 +7,8 @@ using System.Threading.Tasks;
 
 namespace CarlosShop.Repositories
 {
-    public  class RepositoryCustomer
+    public  class RepositoryCustomer : RepositoryGeneric<Customers>
     {
-        public class RepositoryProduct : RepositoryGeneric<Customers>
-        {
-
-        }
-
-
+        
     }
 }

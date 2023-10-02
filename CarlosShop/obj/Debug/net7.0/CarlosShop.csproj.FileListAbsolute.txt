@@ -12,3 +12,4 @@ C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\obj\Debug\net7.0\refi
 C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\obj\Debug\net7.0\CarlosShop.pdb
 C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\obj\Debug\net7.0\CarlosShop.genruntimeconfig.cache
 C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\obj\Debug\net7.0\ref\CarlosShop.dll
+C:\Users\Carlos\Source\Repos\cacpaes\carlosshop\CarlosShop\obj\Debug\net7.0\CarlosShop.csproj.AssemblyReference.cache

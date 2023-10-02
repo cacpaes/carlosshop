@@ -1,10 +1,5 @@
 ﻿using CarlosShop.Configurations;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CarlosShop.Repositories
 {
@@ -38,7 +33,7 @@ namespace CarlosShop.Repositories
             await data.SaveChangesAsync();
         }
 
-        public async Task<List<T>> LisT()
+        public async Task<List<T>> List()
         {
             using var data = new ContextBase(_optionBuilder);
             return await data.Set<T>().AsNoTracking().ToListAsync();
