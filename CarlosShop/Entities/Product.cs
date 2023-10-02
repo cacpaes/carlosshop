@@ -1,24 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CarlosShop.Entities
 {
+    [Table("Product")]
     public class Product
     {
-        // Attributes of the Product class
-        public int Id { get; set; }
-        public string? Name { get; set; }
-        public decimal Weight { get; set; }
-        public string? Type { get; set; }
-        public decimal Height { get; set; }
-        public decimal Width { get; set; }
-        public decimal Depth { get; set; }
+        [Key]
+        public int ProductId { get; set; }
+        public string? ProductName { get; set; }
+        public decimal ProductWeight { get; set; }
+        public decimal ProductHeight { get; set; }
+        public decimal ProductWidth { get; set; }
+        public decimal ProductDepth { get; set; }
         public decimal PurchaseValue { get; set; }
         public decimal SaleValue { get; set; }
         public decimal PurchaseVatRate { get; set; }
         public decimal SaleVatRate { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime? UpdatedDate { get; set; }
     }
 }

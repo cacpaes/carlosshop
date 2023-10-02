@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\CarlosShop",
+    "\\CarlosShop\\Configurations",
     "\\CarlosShop\\Entities",
     "\\CarlosShop\\Repositories"
   ],
-  "SelectedNode": "\\CarlosShop",
+  "SelectedNode": "\\CarlosShop\\Configurations\\ContextBase.cs",
   "PreviewInSolutionExplorer": false
 }

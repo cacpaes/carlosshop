@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CarlosShop.Entities
 {
+    [Table("Customer")]
     public class Customers : People
     {
         // Additional attributes specific to Customers

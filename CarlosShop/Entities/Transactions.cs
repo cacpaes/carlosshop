@@ -1,20 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CarlosShop.Entities
 {
+    [Table("Transactions")]
     public class Transactions
     {
-        // Attributes of the Transactions class
-        public int Id { get; set; }
-        public int EntityId { get; set; }
+
+        [Key]
+        public int TransactionId { get; set; }
+        public int PersonId { get; set; }
         public int ProductId { get; set; }
         public int Quantity { get; set; }
         public decimal TotalAmount { get; set; }
-        public string? Type { get; set; }
+        public string? TransactionType { get; set; }
         public DateTime TransactionDate { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime? UpdatedDate { get; set; }
     }
 }

@@ -2,8 +2,7 @@
 
 namespace CarlosShop.Repositories
 {
-    public class RepositoryProduct : RepositoryGeneric<Product>
+    public class RepositoryTypesReference : RepositoryGeneric<TypesReference>
     {
-        
     }
 }
