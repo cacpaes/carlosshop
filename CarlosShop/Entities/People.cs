@@ -6,7 +6,8 @@ namespace CarlosShop.Entities
     [Table("People")]
     public abstract class People
     {
-        
+        // Attributes of the Person class
+
         [Key]
         public int PersonID { get; set; }
         public string? PersonName { get; set; }
@@ -16,7 +17,7 @@ namespace CarlosShop.Entities
         public string? PublicServiceId { get; set; }
         public string? Email { get; set; }
         public string? PersonType { get; set; }
-        public DateTime CreatedDate { get; set; } 
-        public DateTime? UpdatedDate { get; set; } 
+        public DateTime CreatedDate { get; set; }
+        public DateTime? UpdatedDate { get; set; }
     }
 }

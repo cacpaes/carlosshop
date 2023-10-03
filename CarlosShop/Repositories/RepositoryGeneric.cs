@@ -14,9 +14,17 @@ namespace CarlosShop.Repositories
 
         public async Task Create(T objectEntry)
         {
-            using var data = new ContextBase(_optionBuilder);
-            await data.Set<T>().AddAsync(objectEntry);
-            await data.SaveChangesAsync();
+            try
+            {
+                using var data = new ContextBase(_optionBuilder);
+                await data.Set<T>().AddAsync(objectEntry);
+                await data.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.InnerException.Message);
+            }
         }
 
         public async Task Update(T objectEntry)
@@ -45,6 +53,7 @@ namespace CarlosShop.Repositories
             using var data = new ContextBase(_optionBuilder);
             return await data.Set<T>().FindAsync(id);
         }
+
 
     }
 }

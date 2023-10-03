@@ -2,18 +2,18 @@
 using CarlosShop.Repositories;
 
 
-RepositoryCustomer repositoryCustomer = new();
+RepositoryEmployee repositoryEmployee = new();
 
-Customers customer = new();
-customer.PersonName = "Allen Prado";
-customer.DateBirth = Convert.ToDateTime("19/06/1987");
-customer.PersonAddress = "Rua do Some e Desce, N 52";
-customer.PhoneNumber = "707070707070";
-customer.PublicServiceId = "855854478";
-customer.Email = "allenprado@gmail.com";
-customer.PersonType = "C";
-customer.HasCard = true;
-customer.CreditLimit = Convert.ToDecimal("50000.50");
-customer.CreatedDate = DateTime.Now;
+Employees employee = new();
+employee.PersonName = "Wendel Pessoa";
+employee.DateBirth = Convert.ToDateTime("28/10/1985");
+employee.PersonAddress = "Rua Pessoa N 57";
+employee.PhoneNumber = "6149843313555446";
+employee.PublicServiceId = "561353121111531";
+employee.Email = "pessoa@gmail.com";
+employee.Salary = Convert.ToDecimal("2000,00");
+employee.PersonType = "E";
+employee.StartDate = Convert.ToDateTime("11/10/2021");
+employee.CreatedDate = DateTime.Now;
 
-await repositoryCustomer.Create(customer);
+await repositoryEmployee.Create(employee);
