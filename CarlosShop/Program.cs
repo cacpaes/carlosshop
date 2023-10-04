@@ -10,4 +10,5 @@ stock.UnitQuantity = Convert.ToInt32("100");
 stock.UpdatedDate = Convert.ToDateTime("04/10/2023");
 stock.CreatedDate = DateTime.Now;
 
+
 await repositoryStock.Create(stock);
