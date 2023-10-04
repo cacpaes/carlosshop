@@ -13,5 +13,6 @@ namespace CarlosShop.Entities
         public int UnitQuantity { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime? UpdatedDate { get; set; }
+        public string? PersonType { get; set; }
     }
 }

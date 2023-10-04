@@ -12,8 +12,8 @@ namespace CarlosShop.Configurations
         public DbSet<People> People { get; set; }
         public DbSet<Customers> Customers { get; set; }
         public DbSet<Employees> Employees { get; set; }
-        public DbSet<Product> Products { get; set; }
-        public DbSet<Stock> Stocks { get; set; }
+        public DbSet<Product> Product { get; set; }
+        public DbSet<Stock> Stock { get; set; }
         public DbSet<Suppliers> Suppliers { get; set; }
         public DbSet<Transactions> Transactions { get; set; }
         public DbSet<TypesReference> TypesReference { get; set; }

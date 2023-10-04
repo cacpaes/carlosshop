@@ -2,18 +2,20 @@
 using CarlosShop.Repositories;
 
 
-RepositoryEmployee repositoryEmployee = new();
+RepositoryProduct repositoryProduct = new();
 
-Employees employee = new();
-employee.PersonName = "Wendel Pessoa";
-employee.DateBirth = Convert.ToDateTime("28/10/1985");
-employee.PersonAddress = "Rua Pessoa N 57";
-employee.PhoneNumber = "6149843313555446";
-employee.PublicServiceId = "561353121111531";
-employee.Email = "pessoa@gmail.com";
-employee.Salary = Convert.ToDecimal("2000,00");
-employee.PersonType = "E";
-employee.StartDate = Convert.ToDateTime("11/10/2021");
-employee.CreatedDate = DateTime.Now;
+Product product = new();
+product.ProductName = "CoCa CoLa 1L";
+product.ProductWeight = Convert.ToDecimal("1"); // Peso do Produto
+product.ProductHeight = Convert.ToDecimal("30"); // Altura do Produto
+product.ProductWidth = Convert.ToDecimal("10"); // Largura do produto
+product.ProductDepth = Convert.ToDecimal("30"); // Profundidade do produto
+product.PurchaseValue = Convert.ToDecimal("1"); // Valor de compra
+product.SaleValue = Convert.ToDecimal("2"); // Valor de venda
+product.PurchaseVatRate = Convert.ToDecimal("20"); // Taxa de IVA de compra
+product.PersonType = "P";
+product.SaleVatRate = Convert.ToDecimal("20"); // Taxa de vendaVat
+product.UpdatedDate = Convert.ToDateTime("04/10/2023");
+product.CreatedDate = DateTime.Now;
 
-await repositoryEmployee.Create(employee);
+await repositoryProduct.Create(product);
