@@ -17,7 +17,6 @@ namespace CarlosShop.Entities
         public decimal SaleValue { get; set; }
         public decimal PurchaseVatRate { get; set; }
         public decimal SaleVatRate { get; set; }
-        public string? PersonType { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime? UpdatedDate { get; set; }
     }
