@@ -1,14 +1,40 @@
 ﻿using CarlosShop.Entities;
 using CarlosShop.Repositories;
 
+RepositoryCustomer repositoryCustomer = new();
+Transactions transaction = new();
+List<Sells> sellList = new();
 
-RepositoryStock repositoryStock = new();
+transaction.PersonId = 1;
+transaction.TransactionType = "P";
+transaction.TransactionDate = DateTime.Now;
+transaction.CreatedDate = DateTime.Now;
 
-Stock stock = new();
-stock.ProductId = Convert.ToInt32("20"); 
-stock.UnitQuantity = Convert.ToInt32("100"); 
-stock.UpdatedDate = Convert.ToDateTime("04/10/2023");
-stock.CreatedDate = DateTime.Now;
+sellList.Add(new Sells()
+{
 
+    ProductId = 1,
+    Quantity = 20,
+    SellDate = DateTime.Now
 
-await repositoryStock.Create(stock);
+});
+
+sellList.Add(new Sells()
+{
+
+    ProductId = 5,
+    Quantity = 50,
+    SellDate = DateTime.Now
+
+});
+
+sellList.Add(new Sells()
+{
+
+    ProductId = 10,
+    Quantity = 200,
+    SellDate = DateTime.Now
+
+});
+
+repositoryCustomer.Purchase(sellList, transaction);

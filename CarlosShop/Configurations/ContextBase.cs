@@ -17,6 +17,7 @@ namespace CarlosShop.Configurations
         public DbSet<Suppliers> Suppliers { get; set; }
         public DbSet<Transactions> Transactions { get; set; }
         public DbSet<TypesReference> TypesReference { get; set; }
+        public DbSet<Sells> sellList { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

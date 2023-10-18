@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos\\Source\\Repos\\cacpaes\\carlosshop\\CarlosShop\\CarlosShop.csproj": {}
+    "C:\\Users\\Carlos\\source\\repos\\cacpaes\\carlosshop\\CarlosShop\\CarlosShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos\\Source\\Repos\\cacpaes\\carlosshop\\CarlosShop\\CarlosShop.csproj": {
+    "C:\\Users\\Carlos\\source\\repos\\cacpaes\\carlosshop\\CarlosShop\\CarlosShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos\\Source\\Repos\\cacpaes\\carlosshop\\CarlosShop\\CarlosShop.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\source\\repos\\cacpaes\\carlosshop\\CarlosShop\\CarlosShop.csproj",
         "projectName": "CarlosShop",
-        "projectPath": "C:\\Users\\Carlos\\Source\\Repos\\cacpaes\\carlosshop\\CarlosShop\\CarlosShop.csproj",
+        "projectPath": "C:\\Users\\Carlos\\source\\repos\\cacpaes\\carlosshop\\CarlosShop\\CarlosShop.csproj",
         "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Carlos\\Source\\Repos\\cacpaes\\carlosshop\\CarlosShop\\obj\\",
         "projectStyle": "PackageReference",

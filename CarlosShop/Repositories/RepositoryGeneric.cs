@@ -12,18 +12,23 @@ namespace CarlosShop.Repositories
             _optionBuilder = new DbContextOptions<ContextBase>();
         }
 
-        public async Task Create(T objectEntry)
+        public async Task<T> Create(T objectEntry)
         {
             try
             {
                 using var data = new ContextBase(_optionBuilder);
                 await data.Set<T>().AddAsync(objectEntry);
                 await data.SaveChangesAsync();
+
+                return objectEntry;
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
                 Console.WriteLine(ex.InnerException.Message);
+
+                return null;
+
             }
         }
 

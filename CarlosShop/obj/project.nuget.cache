@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qsDQpKBP8hu/LC9+DmTCZHkWR+tidMrwRi6OvGR1ZsQVLmtWPRudcwvvQrOd8kiuTjzAzNrDg4SuYzZ25DhFTg==",
+  "dgSpecHash": "M1bFla9vFSE4AfmUw0ux7/vXsjtqHq4gTwhDRywKFO2mcWL4+2q8h/YAzYb/U9fhw2vp8Oh/mOPnH+wR7/eL+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Carlos\\Source\\Repos\\cacpaes\\carlosshop\\CarlosShop\\CarlosShop.csproj",
+  "projectFilePath": "C:\\Users\\Carlos\\source\\repos\\cacpaes\\carlosshop\\CarlosShop\\CarlosShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Carlos\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Carlos\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
