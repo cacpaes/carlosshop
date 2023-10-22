@@ -21,7 +21,7 @@ namespace CarlosShop.Configurations
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=CarlosShop;Integrated Security=True; TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer(@"Data Source=localhost;Initial Catalog=CarlosShop;Integrated Security=True; TrustServerCertificate=True;");
         }
     }
 
